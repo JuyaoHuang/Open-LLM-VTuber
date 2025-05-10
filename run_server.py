@@ -14,6 +14,10 @@ os.environ["HF_HOME"] = str(Path(__file__).parent / "models")
 os.environ["MODELSCOPE_CACHE"] = str(Path(__file__).parent / "models")
 
 
+# uv run run_server.py
+# runtime\python.exe api_v2.py
+# cd /d/Coding/GPT-SoVITS/gptSovits/GPT-SoVITS-v3lora-20250228
+
 def get_version() -> str:
     with open("pyproject.toml", "rb") as f:
         pyproject = tomli.load(f)
