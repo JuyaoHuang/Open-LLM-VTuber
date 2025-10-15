@@ -10,6 +10,8 @@ duckduckgo-mcp-server==0.1.1
     # via open-llm-vtuber (pyproject.toml)
 edge-tts==7.2.3
     # via open-llm-vtuber (pyproject.toml)
+elevenlabs==2.18.0
+    # via open-llm-vtuber (pyproject.toml)
 fastapi==0.118.0
     # via open-llm-vtuber (pyproject.toml)
 groq==0.32.0
